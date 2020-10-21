@@ -4,7 +4,7 @@
   "description": "Landing page for Natours",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass public/sass/main.scss public/css/style.css -w"
+    "compile:sass": "node-sass resources/sass/main.scss resources/css/style.css -w"
   },
   "author": "Matheus",
   "license": "ISC",
