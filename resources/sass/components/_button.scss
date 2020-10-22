@@ -1,6 +1,7 @@
 .btn {
   &:link,
   &:visited {
+    font-size: 1.5rem;
     text-transform: uppercase;
     text-decoration: none;
     padding: 15px 40px;
@@ -31,6 +32,15 @@
 
     &::after {
       background-color: $color-white;
+    }
+  }
+
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-primary;
     }
   }
 
